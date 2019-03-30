@@ -150,7 +150,7 @@ h4 {
   object-fit:cover;
   text-align:center;
   height:100vh;
-  background-image:url(/img/landingBg.jpeg);
+  background-image:url(/CTRL-SHIFT-TechBytes/img/landingBg.jpeg);
   background-size: 100% 100%;
   /*The landing is designed to hook viewers before they leave so that this ends up being the first thing they see, with a short description that tells them what they need to know */
 }
@@ -266,7 +266,7 @@ h4 {
   display:inline-block;
 }
 #contactContainer {
-  background:url(/img/contactPageBg.jpg);
+  background:url(/CTRL-SHIFT-TechBytes/img/contactPageBg.jpg);
   background-size:100vw 100vh;
   object-fit:cover;
   background-repeat: no-repeat;
@@ -286,7 +286,7 @@ h4 {
   background-repeat:no-repeat;
   background-size:100%;
   vertical-align:middle;
-  background-image:url(/img/aboutPageBg.jpg);
+  background-image:url(/CTRL-SHIFT-TechBytes/img/aboutPageBg.jpg);
   object-fit:cover;
   text-align:center;
 }
