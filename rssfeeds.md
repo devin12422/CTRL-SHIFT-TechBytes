@@ -1,0 +1,11 @@
+https://www.wired.com/feed/category/business/latest/rss
+http://feeds.bbci.co.uk/news/technology/rss.xml
+http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+https://www.cnet.com/rss/news/
+https://www.engadget.com/rss.xml
+http://feeds.washingtonpost.com/rss/business/technology
+https://www.theverge.com/rss/frontpage
+https://www.techradar.com/rss
+https://www.technologyreview.com/topnews.rss
+https://www.pcmag.com/Rss.aspx/SectionArticles?sectionId=27961
+https://technical.ly/philly/feed/

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Styling for globally used classes 
+ * 
+ * 
+ * --------------------------------*/
+ .topnav {
+  background-color: black;
+  overflow: hidden;
+  top:0;
+  padding-top:0;
+  position:sticky;
+  margin:0;
+  /* This is the top navigation bar*/
+}
+#topnavLogo {
+  padding: 18px 16px;
+  height: auto;
+  width:auto;
+  display:inline-block;
+  float:left;
+  /*  Styling for the logo in the topnav  */
+}
+#topnavLogo img {
+  height:5vh;
+  float:left;
+}
+.topnav a {
+  float: left;
+  color: #ffff;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 2.5vh;
+  font-family:'Raleway', sans-serif;
+  /* This styles all the links in the navbar*/
+}
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+  /* Transitions for the navbar */
+}
+.standardtext {
+  list-style:none;
+  color:white;
+  font-family:'Raleway', sans-serif;
+  /* This is the most commonly used font styling on the website becuase of the abundance of darker colors, so the white is able to stand out and be read.*/
+}
+.standardtextblack {
+  list-style:none;
+  color:black;
+  font-family:'Raleway', sans-serif;
+  /* This is the a variation of standardtext, but black*/
+}
+a {
+  text-decoration:none;
+}
+li {
+  list-style:none;
+}
+body {
+  width:100%;
+  height:auto;
+  display:inline;
+}
+#footer {
+  background-color:black;
+  width:100%;
+  /* Footer at the bottom of the pages*/
+}
+#footerContactColumn .footerLi p {
+  display:inline;
+  margin-top:20px;
+  /*There was a problem where margins on a p tag extended the footer and page so there was whitespace on the bottom    */
+}
+.footerColumn {
+  width:20vw;
+  height:auto;
+  display:inline-block;
+  text-align:center;
+  vertical-align:top;
+  /* Columns in the footer to hold more information nicely */
+}
+#footerContactColumn {
+  width:25vw;
+  float:right;
+  height:auto;
+}
+h4 {
+  margin:none;
+  display:inline-block;
+}
+/* Styling for index.html
+ * 
+ * 
+ *------------------------*/
+ #companyName {
+  margin-bottom: 50px;
+  font-size:7vh;
+  /* A h2 on index.html stating the name of the company*/
+}
+#companyLogo {
+  height:20vh;
+  /* An image tag displaying the company logo (from logomakr.com, even though im not using the website commercially I still)*/
+}
+#companySlogan {
+  font-size:3vh;
+  /* A h3 tag displaying the slogan of TechBytes.*/
+}
+#demofeed {
+  width:50vw;
+  display:inline-block;
+  float:right;
+  /* Styling and sizing the div containing the demo widget on index.html */
+}
+#sourcesdiv {
+  padding:20px;
+  padding-bottom:100px;
+  background:linear-gradient(180deg, #0F2027, #203A43, #2C5364);
+  text-align:center;
+  /*Styling the div that contains a list of all the sources on index.html */
+}
+.landingdescription {
+  color:white;
+  font-family:'Raleway', sans-serif;
+  border-radius:10px;
+  display:inline-block;
+  background:rgba(5, 5, 5, 0.3);
+  padding:10px;
+  margin-bottom:0px;
+  /* This is the div tag containing a short description and demo of the rss feeds */
+}
+#logoAlign {
+  display: inline-block;
+  margin-top:15vh;
+  /* Styling the logo, name, and tagline on index.html */
+}
+#landingDescription {
+  width:100%;
+  border-top-style: dashed;
+  text-align:center;
+  border-width:1.5px;
+  border-color:black;
+  background:linear-gradient(180deg, #2C5364, #3f4c6b);
+  display:inline-block;
+  /* Since the gradients between #landingDescriptionDiv and #sourcesDiv merge, I added a dotted line so visitors could tell when to expect a change in section and subject */
+}
+#indexLanding {
+  object-fit:cover;
+  text-align:center;
+  height:100vh;
+  background-image:url(/img/landingBg.jpeg);
+  background-size: 100% 100%;
+  /*The landing is designed to hook viewers before they leave so that this ends up being the first thing they see, with a short description that tells them what they need to know */
+}
+/* Styling for hub.html 
+ * 
+ * 
+ * --------------------*/
+ #hubbg {
+  background: radial-gradient(#859398, #283048);
+  width:100vw;
+  /* This is styling the appearance of hub.html */
+}
+#hubMainContainer {
+  width:auto;
+  padding-left:20px;
+  text-align:center;
+  /* This container has the feed container and feedpick container. */
+}
+#feedContainer {
+  display:inline-block;
+  width: 75%;
+  background-color:white;
+  height:auto;
+  /* Styling and sizing the div containing all the feeds on hub.html */
+}
+#hubWelcome {
+  width:90%;
+  padding:20px;
+  padding-right:0px;
+  /* This is what an H1 tag originally said when you went to hub.html, it's styling the div that contans a short description of what the page is */
+}
+.hubSlides {
+  display: none;
+  height:50%;
+}
+/* Slideshow container */
+ .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  /* Position the "next button" to the right */
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* The dots/bullets/indicators for the slideshow*/
+ .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* CSS for the Contact page 
+ * 
+ * 
+ * -----------------------*/
+ #contactForm input[type="text"], #contactForm input[type="email"], #contactForm input[type="tel"], #contactForm input[type="url"], #contactForm textarea {
+  width: 100%;
+  padding-bottom:50px;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contactForm {
+  background:linear-gradient(200deg, #232526, #414345);
+  display:inline-block;
+  background-color:whitesmoke;
+  margin-top:10vh;
+  height:70vh;
+  width:50%;
+}
+#contactSubmit {
+  height:7%;
+  width:40%;
+  background:#232526;
+  border:none;
+  color:#FFF;
+  font-size:3vh;
+  font-family:'Raleway', sans-serif;
+  display:inline-block;
+}
+#contactContainer {
+  background:url(/img/contactPageBg.jpg);
+  background-size:100vw 100vh;
+  object-fit:cover;
+  background-repeat: no-repeat;
+  display:inline-block;
+  vertical-align:middle;
+  text-align:center;
+  width:100%;
+  height:90vh;
+  /* A div that contains the webpage above the fold on contact.html */
+}
+/*CSS for the about page 
+ * 
+ * 
+ * -------------------*/
+ #aboutContainer {
+  height:90vh;
+  background-repeat:no-repeat;
+  background-size:100%;
+  vertical-align:middle;
+  background-image:url(/img/aboutPageBg.jpg);
+  object-fit:cover;
+  text-align:center;
+}
+#teamPageContainer {
+  height:auto;
+  text-align:center;
+}
+#aboutDescription {
+  display:inline-block;
+  width:50%;
+  float:left;
+  background:rgba(5, 5, 5, 0.3);
+  border-radius:20px;
+}
+#aboutContainer h1 {
+  margin:inherit;
+  padding-top:20px;
+}
+.teamContainer {
+  width:200px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 9px 30px 0 rgba(0, 0, 0, 0.30);
+  text-align: center;
+  border-radius:20px;
+  background:black;
+  display:inline-block;
+}
+.teamContainer img {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.40), 0 5px 10px 0 rgba(0, 0, 0, 0.40);
+  width: inherit;
+  height: 200px;
+  border-radius:20px;
+  transition:0.5s;
+  object-fit:cover;
+}
+/* CSS Styling for terms.html 
+ * 
+ * 
+ * -------------------------*/
+#termsContainer{
+  padding-left:20px;
+}
+ #termsContainer h1, #termsContainer h2, #termsContainer h3, #termsContainer p {
+  font-family:'Raleway', sans-serif;
+}

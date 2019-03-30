@@ -1,4 +1,5 @@
 [editor]
+tab_size = 2
 ; enter your editor preferences here...
 
 [view-javascript-code]
@@ -20,7 +21,7 @@
 ; enter your terminal preferences here...
 
 [preview]
-index_file = TechBytes/index.html
+index_file = index.html
 ; enter your preview preferences here...
 
 [search]
