@@ -187,7 +187,6 @@ h4 {
 }
 /* Slideshow container */
  .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -197,7 +196,7 @@ h4 {
   position: absolute;
   top: 50%;
   width: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 16px;
   margin-top: -22px;
   color: white;
