@@ -154,14 +154,14 @@ h4 {
   background-size: 100% 100%;
   /*The landing is designed to hook viewers before they leave so that this ends up being the first thing they see, with a short description that tells them what they need to know */
 }
-/* Styling for hub.html 
+/* Styling for html/html/hub.html 
  * 
  * 
  * --------------------*/
  #hubbg {
   background: radial-gradient(#859398, #283048);
   width:100vw;
-  /* This is styling the appearance of hub.html */
+  /* This is styling the appearance of html/html/hub.html */
 }
 #hubMainContainer {
   width:auto;
@@ -174,13 +174,13 @@ h4 {
   width: 75%;
   background-color:white;
   height:auto;
-  /* Styling and sizing the div containing all the feeds on hub.html */
+  /* Styling and sizing the div containing all the feeds on html/html/hub.html */
 }
 #hubWelcome {
   width:90%;
   padding:20px;
   padding-right:0px;
-  /* This is what an H1 tag originally said when you went to hub.html, it's styling the div that contans a short description of what the page is */
+  /* This is what an H1 tag originally said when you went to html/html/hub.html, it's styling the div that contans a short description of what the page is */
 }
 .hubSlides {
   display: none;
@@ -275,7 +275,7 @@ h4 {
   text-align:center;
   width:100%;
   height:90vh;
-  /* A div that contains the webpage above the fold on contact.html */
+  /* A div that contains the webpage above the fold on html/html/hub.html */
 }
 /*CSS for the about page 
  * 
