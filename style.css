@@ -76,6 +76,9 @@ body {
   margin-top:20px;
   /*There was a problem where margins on a p tag extended the footer and page so there was whitespace on the bottom    */
 }
+#footerSourcesColumn .footerLi{
+  margin:3px;
+}
 .footerColumn {
   width:20vw;
   height:auto;
@@ -141,6 +144,7 @@ h4 {
 }
 #landingDescription {
   width:100%;
+  text-align:center;
   border-top-style: dashed;
   text-align:center;
   border-width:1.5px;
@@ -151,6 +155,8 @@ h4 {
 }
 #landingDescription #textContainer{
   width:40%;
+  display:inline-block;
+  text-align:center
 }
 #indexLanding {
   object-fit:cover;
