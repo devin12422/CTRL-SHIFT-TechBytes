@@ -167,6 +167,7 @@ h4 {
   width:auto;
   padding-left:20px;
   text-align:center;
+  height:70vh;
   /* This container has the feed container and feedpick container. */
 }
 #feedContainer {
