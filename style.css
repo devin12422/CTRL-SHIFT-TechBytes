@@ -11,10 +11,12 @@
   padding-top:0;
   position:sticky;
   margin:0;
+  display: flex;
+  align-items: center;
   /* This is the top navigation bar*/
 }
 #topnavLogo {
-  padding: 18px 16px;
+  padding: 0px 0px 0px 25px;
   height: auto;
   width:auto;
   display:inline-block;
@@ -29,7 +31,7 @@
   float: left;
   color: #ffff;
   text-align: center;
-  padding: 25px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   font-size: 2.5vh;
   font-family:'Raleway', sans-serif;
@@ -178,9 +180,7 @@ h4 {
   /* Styling and sizing the div containing all the feeds on html/html/hub.html */
 }
 #hubWelcome {
-  width:90%;
-  padding:20px;
-  padding-right:0px;
+  padding:5vh 40px;
   /* This is what an H1 tag originally said when you went to html/html/hub.html, it's styling the div that contans a short description of what the page is */
 }
 .hubSlides {
