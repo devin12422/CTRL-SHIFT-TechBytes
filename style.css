@@ -15,6 +15,10 @@
   align-items: center;
   /* This is the top navigation bar*/
 }
+body {
+  margin:0px;
+  /*    I was having a problem where the page extended above and below where the content was, and this was the cause*/
+}
 #topnavLogo {
   padding: 0px 10px 0px 25px;
   height: auto;
@@ -284,7 +288,7 @@ h4 {
   text-align:center;
   width:100%;
   height:90vh;
-  /* A div that contains the webpage above the fold on html/html/hub.html */
+  /* A div that contains the webpage above the fold on html/hub.html */
 }
 /*CSS for the about page 
  * 
