@@ -346,7 +346,7 @@ h4 {
  * 
  * -------------------------*/
  #termsContainer {
-  padding-left:20px;
+  padding: 0px 40px;
 }
 #termsContainer h1, #termsContainer h2, #termsContainer h3, #termsContainer p {
   font-family:'Raleway', sans-serif;
