@@ -256,6 +256,9 @@ h4 {
   margin: 0 0 5px;
   padding: 10px;
 }
+#contactForm textarea {
+  height:30vh;
+}
 #contactForm {
   width:90%;
   display:inline-block;
