@@ -162,6 +162,10 @@ h4 {
   display:inline-block;
   text-align:center
 }
+#wired {
+  float:left;
+  /* Demo feed on index page */
+}
 #indexLanding {
   object-fit:cover;
   text-align:center;
@@ -175,7 +179,7 @@ h4 {
  * 
  * --------------------*/
  #hubbg {
-  background: radial-gradient(#859398, #283048);
+  background: radial-gradient(#2C5364, #3f4c6b);
   width:100vw;
   /* This is styling the appearance of html/hub.html */
 }
@@ -195,6 +199,7 @@ h4 {
 }
 #hubWelcome {
   padding:5vh 40px;
+  text-align:center;
   /* This is what an H1 tag originally said when you went to html/hub.html, it's styling the div that contans a short description of what the page is */
 }
 .hubSlides {
