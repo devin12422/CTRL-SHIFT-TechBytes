@@ -163,10 +163,6 @@ h4 {
   display:inline-block;
   text-align:center
 }
-#wired {
-  float:left;
-  /* Demo feed on index page */
-}
 #indexLanding {
   object-fit:cover;
   text-align:center;
