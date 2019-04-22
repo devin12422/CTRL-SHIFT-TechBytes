@@ -148,6 +148,7 @@ h4 {
 }
 #landingDescription {
   width:100%;
+  padding-bottom:30px;
   text-align:center;
   border-top-style: dashed;
   text-align:center;
@@ -314,6 +315,7 @@ h4 {
 }
 #teamPageContainer {
   height:auto;
+  padding-bottom:50px;
   text-align:center;
 }
 #aboutDescription {
